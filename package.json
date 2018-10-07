@@ -1,0 +1,47 @@
+{
+  "name": "current-type-of",
+  "version": "0.0.0-development",
+  "description": "gets the current type of the value passed in, and if the value is null, it returns 'null'",
+  "keywords": [
+    "type",
+    "typeof",
+    "null"
+  ],
+  "main": "currentTypeOf",
+  "author": "Matt Johnston <matt.tw.johnston@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnstonmatt/purp"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/__tests__/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 95,
+        "lines": 95,
+        "statements": 95
+      }
+    },
+    "collectCoverage": true
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "jest": "^22.0.2"
+  }
+}
