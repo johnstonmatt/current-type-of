@@ -1,6 +1,6 @@
 {
   "name": "current-type-of",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "gets the current type of the value passed in, and if the value is null, it returns 'null'",
   "keywords": [
     "type",
