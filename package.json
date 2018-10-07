@@ -18,6 +18,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "test": "jest",
     "test:watch": "jest --watch"
   },
