@@ -1,6 +1,6 @@
 {
   "name": "current-type-of",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "gets the current type of the value passed in, and if the value is null, it returns 'null'",
   "keywords": [
     "type",
@@ -11,7 +11,7 @@
   "author": "Matt Johnston <matt.tw.johnston@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnstonmatt/purp"
+    "url": "https://github.com/johnstonmatt/current-type-of"
   },
   "license": "MIT",
   "engines": {

@@ -15,3 +15,10 @@ install:
 script:
 - npm test
 - npm run coveralls
+deploy:
+  provider: npm
+  email: m@ttjohnston.com
+  api_key:
+    secure: bC2jgRVWnyZ6ot+pylEYIZ5SSM9X54/lM886xwRtR4vVEYBT5LPx6umHI6fz4jiY/izsUNzoCRQdovgikl2m5DGH1RoVHKfm0/ReiV2j0d0iRpaFdkyjn1pKajFbUuz+JN/b6ixg+k04Gd/QoLS6Aouy5aysYyPb9X6y6tpiRstklmcJuoY0YyMlsCvF7haA8N/zcrlJo8vFAcIfbVQa+C0D3OnUdofltE1g/zI3xqO0yhciKGs/epT2g7UG/tGv1YF81AuhwD8vQHxAaE7vECXqiWAC1Zaueql4SPqAVmyDstFIMo59RGtEJsiKmLYQLsYgOnj+Yx4UV6KjAY8/jMP4YnN1GvXJHLa+3SDZQxpJqrvtUgSf+fdA6D4sHKtBnc+M28s/wjUK/o6VLlZIcJVCzxmAiVMYFBrGHvUAEdpyZ3vpSwSPgllZW+Zd79ox0KaVNph6i6PLC6LyPZE+6TfaZoS+Jf1uB5A1y9qgCpJ5bGYMLQpC6ZcUk8FXYSBF2oL50D0Z4OwvWCtyTilpbE081TBgclGw0kRWPs+Ed4j3s93xqQDXxjHPHngGnBghcamAAM7IRGPOnouCsKZDXtLi7R0yTfiKRCmc+5YQ26K4T2RMF0LyMElmFNQmXPsSHTM/+D/NgmdOsLP+xarcvrPMHTkTJRMKcYpbZ7dFjK4=
+  on:
+    repo: johnstonmatt/current-type-of
